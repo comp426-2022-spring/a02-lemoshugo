@@ -11,7 +11,7 @@ let guess = input['call'];
 if (guess != 'heads' && guess != 'tails') {
     console.log("Error: no input.");
 
-    console.log("Usage: node guess-flip --call[heads|tails]");
+    console.log("Usage: node guess-flip --call=[heads|tails]");
 
 } else {
     console.log(coinFunctions.flipACoin(guess));
