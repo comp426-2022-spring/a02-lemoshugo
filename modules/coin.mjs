@@ -78,6 +78,14 @@ export function countFlips(array) {
     }
   }
 
+  if (headCount == 0 || tailsCount == 0) {
+    if (headCount == 0) {
+      return "{ tails: " + tailsCount + " }";
+    } else if (tailsCount == 0) {
+      return "{ heads: " + headCount + " }";
+    }
+  }
+
   let result = "{ tails: " + tailsCount + ", heads: " + headCount + " }";
 
   return result;
