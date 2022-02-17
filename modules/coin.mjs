@@ -87,6 +87,7 @@ export function countFlips(array) {
   }
 
   let result = "{ tails: " + tailsCount + ", heads: " + headCount + " }";
+  
 
   return result;
 }
